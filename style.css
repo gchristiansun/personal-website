@@ -237,3 +237,47 @@ body {
     /* display: none;  */
     z-index: -1;
 }
+
+@media (max-width: 500px) {
+    .box-icon-custom {
+        background-color: #696969;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        transition: 0.5s ease;
+
+    }
+
+    .icon-custom {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .image-profile img {
+        width: 200px;
+        border-top-right-radius: 80px;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 80px;
+        box-shadow: 1px 4px 8px #696969;
+    }
+
+    /* Sementara */
+    nav ul {
+        display: none
+    }
+
+    .text-profile h1 {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .text-profile h2 {
+        font-weight:normal;
+        font-size: 20px;
+    }
+}
