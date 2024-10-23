@@ -116,7 +116,8 @@ body {
 
 @media (max-width: 480px) {
     .logo-nav {
-        margin-left: 20px;
+        margin-left: 35px;
+        width: 60px
     }
 }
 
@@ -238,7 +239,7 @@ body {
     z-index: -1;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .box-icon-custom {
         background-color: #696969;
         width: 40px;
@@ -248,6 +249,7 @@ body {
         align-items: center;
         border-radius: 10px;
         transition: 0.5s ease;
+        flex-wrap: wrap;
 
     }
 
@@ -279,5 +281,47 @@ body {
     .text-profile h2 {
         font-weight:normal;
         font-size: 20px;
+    }
+
+    .box-icon-custom:hover {
+        background-color: white;
+        border-bottom: 3px solid #696969;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+    }
+    
+    .box-icon-custom:hover .icon-custom {
+        color: #696969;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    nav {
+        width: 100%;
+        height: 55px;
+        margin: 0px;
+        box-shadow: 1px 2px 5px #696969;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: sticky;
+        top: 0px;
+        background-color: white;
+    }
+
+    .image-profile {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 80px;
+    }
+
+    .icon-nav {
+        font-size: 25px;
+        margin-right: 5%
     }
 }
